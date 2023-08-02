@@ -1,0 +1,22 @@
+criar um arquivo em uma pasta;
+na pasta, com o botão direito, clicar em Git Bash;
+no cmd:
+git status (para verificar a situação);
+git init (para iniciar um repositório e mostra os arquivos disponíveis no working directory e ir para o staging area);
+git add <nome do arquivo> ou "." (para add tudo);
+git config --global user.email "email"
+git config --global user.name "nome do usuário"
+git commit -m "alguma descrição para o upload"
+----- o arquivo está criado -----
+
+No GitHub, clicar em "new repository" e criar um repositório para o arquivo.
+para dar "push" em um repositório existente, seguir os comandos:
+git remote add origin "link que o GitHub oferece";
+git branch -M main;
+git push -u origin main.
+----- o arquivo foi lançado no repositório -----
+
+Caso seja feita alguma atualização no arquivo:
+git add <nome do arquivo> ou "." (para add tudo);
+git commit -m "alguma descrição para o upload"
+git push -u origin main.
