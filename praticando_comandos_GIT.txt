@@ -20,3 +20,9 @@ Caso seja feita alguma atualização no arquivo:
 git add <nome do arquivo> ou "." (para add tudo);
 git commit -m "alguma descrição para o upload"
 git push -u origin main.
+----- o arquivo foi lançado novamente -----
+
+Caso o arquivo tenha sido apagado ou dado algum erro:
+No repositório, é possível clonar o arquivo, clicando em "<> Code" ou baixar o arquivo zipado;
+Ou é possível fazer um clone, clicando em "commit" (no repositório) e selecionar a versão desejada.
+
